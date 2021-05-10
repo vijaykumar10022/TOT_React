@@ -1,0 +1,88 @@
+.card-view{
+	display: flex;
+	flex-direction: row;
+	justify-content: all;
+}
+.card1,.card2,.card3,.card4{
+	border: 2px solid #fff;
+	padding: 1%;
+	margin:1%;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5%;
+
+}
+.std{
+	align-items: center;
+}
+
+img{
+	width:20%;
+	border-radius: 10%;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	box-shadow:2px 3px 4px black;
+}
+button{
+	width:50%;
+	height:20%;
+
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+	.card-view{
+		display:flex;
+		flex-direction:column;
+		max-width: 100%;
+
+
+	}
+	.card-view>div{
+		max-width: 100%;
+		font-size: 20px;
+
+	}
+}
+@media only screen and (min-width:481px) and (max-width:767px) {
+
+	.card-view{
+		display:flex;
+		flex-direction:column;
+		max-width: 100%;
+
+
+	}
+	
+	.card-view>div{
+		max-width: 100%;
+		font-size: 20px;
+
+	}
+	button{
+		max-width:auto;
+	}
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+	.card-view{
+		display:flex;
+		flex-direction:row-reverse;
+		max-width: 100%;
+		justify-content: center;
+		flex-wrap: wrap-reverse;
+
+
+	}
+	
+	.card-view>div{
+		max-width: 100%;
+		font-size: 20px;
+
+	}
+	button{
+		max-width:auto;
+		box-shadow: 2px 3px 2px 3px solid blue;
+
+	}
+}
