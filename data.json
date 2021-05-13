@@ -1,0 +1,28 @@
+{
+	"details":[
+		{
+			"productname":"oneplus 9",
+			"image":"",
+			"originalprice":"45000",
+			"offerprice":"42000"
+		},
+		{
+			"productname":"honor 7A",
+			"image":"",
+			"originalprice":"15000",
+			"offerprice":"10000"
+		},
+		{
+			"productname":"lgg8x",
+			"image":"",
+			"originalprice":"70000",
+			"offerprice":"18000"
+		}
+		{
+			"productname":"realme 5",
+			"image":"",
+			"originalprice":"12500",
+			"offerprice":"10000"
+		}
+	]
+}

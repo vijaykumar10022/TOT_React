@@ -2,6 +2,7 @@
 .main{
 	display: flex;
 	flex-direction: row;
+
 }
 
 .left{
@@ -44,22 +45,17 @@ img {
 	.main{
 		display: flex;
 		flex-direction: column;
+		border: 3px solid;
 
 	}
 	.left{
-		border: 2px solid red;
-		height: 1020px;
-		width: 350px;
-		flex-direction: column;
-		border-right: 1px solid red;  
-	}
+		height: auto;
+		width: auto;
+			}
 	.right{
-		border: 2px solid red;
-		border-left:1px solid red; 
-		height: 1020px;
-		width: 700px;
-		flex:1;
-		flex-direction: row;
+		 
+		height: auto;
+		width: auto;
 	}
 	.mod{
 	padding: 20px;
@@ -68,6 +64,12 @@ img {
 .Resume{
 	text-align:  center;
 	color: red;
+}
+h2{
+	text-align: center;
+}
+h4{
+	color: black;
 }
 
 }
@@ -75,21 +77,17 @@ img {
 	.main{
 		display: flex;
 		flex-direction: column;
+		border: 3px solid;
+
 	}
 	.left{
-		border: 2px solid red;
-		height: 1020px;
-		width: 350px;
-		flex-direction: column;
-		border-right: 1px solid red;  
+		height: auto;
+		width: auto;
 	}
 	.right{
-		border: 2px solid red;
-		border-left:1px solid red; 
-		height: 1020px;
-		width: 700px;
-		flex:1;
-		flex-direction: row;
+		 height: auto;
+		 width: auto;
+
 	}
 	.mod{
 	padding: 20px;
@@ -98,6 +96,12 @@ img {
 .Resume{
 	text-align:  center;
 	color: red;
+}
+h2{
+	text-align: center;
+}
+h4{
+	color: black;
 }
 
 }
@@ -105,22 +109,18 @@ img {
 
 	.main{
 		display: flex;
-		flex-direction: column;
+		flex-direction:column;
+		border: 3px solid;
 	}
 	.left{
-		border: 2px solid red;
-		height: 1020px;
-		width: 350px;
-		flex-direction: column;
-		border-right: 1px solid red;  
+		
+		border-right: 1px solid red; 
+		height: auto; 
 	}
 	.right{
-		border: 2px solid red;
+		
 		border-left:1px solid red; 
-		height: 1020px;
-		width: 700px;
-		flex:1;
-		flex-direction: row;
+		height: auto;
 	}
 	.mod{
 	padding: 20px;
@@ -129,6 +129,13 @@ img {
 .Resume{
 	text-align:  center;
 	color: red;
+}
+h2{
+	text-align: center;
+}
+h4{
+	color: black;
+	word-wrap: break-word;
 }
 
 }
